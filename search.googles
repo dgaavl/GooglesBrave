@@ -1,0 +1,18 @@
+! name: CSIRT CVE Sources
+  ! description: Boost cybersecurity sources for CVE analysis
+  ! public: false
+
+  ! --- Tier 1: Autoridades CVE (boost máximo) ---
+  nvd.nist.gov$boost=10
+  cve.mitre.org$boost=10
+  cisa.gov$boost=10
+
+  ! --- Tier 2: Vendors de vuln intelligence ---
+  rapid7.com$boost=8
+  tenable.com$boost=8
+  cvedetails.com$boost=8
+
+  ! --- Tier 3: Noticias especializadas ---
+  bleepingcomputer.com$boost=6
+  thehackernews.com$boost=6
+  securityweek.com$boost=6
