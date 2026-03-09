@@ -4,16 +4,16 @@
 ! author: Me
 
 ! --- Tier 1: Autoridades CVE (boost máximo) ---
-nvd.nist.gov$boost=10
-cve.mitre.org$boost=10
-cisa.gov$boost=10
+$boost=10,site=nvd.nist.gov
+$boost=10,site=cve.mitre.org
+$boost=10,site=cisa.gov
 
 ! --- Tier 2: Vendors de vuln intelligence ---
-rapid7.com$boost=8
-tenable.com$boost=8
-cvedetails.com$boost=8
+$boost=8,site=rapid7.com
+$boost=8,site=tenable.com
+$boost=8,site=cvedetails.com
 
 ! --- Tier 3: Noticias especializadas ---
-bleepingcomputer.com$boost=6
-thehackernews.com$boost=6
-securityweek.com$boost=6
+$boost=6,site=bleepingcomputer.com
+$boost=6,site=thehackernews.com
+$boost=6,site=securityweek.com
